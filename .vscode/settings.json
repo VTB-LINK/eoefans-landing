@@ -1,0 +1,31 @@
+{
+  // 一个tab等于2个空格
+  "editor.tabSize": 2,
+  // 禁用 【根据文件类型自动设置tabsize】
+  "editor.detectIndentation": false,
+  // eslint 保存自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  // 自动格式化
+  "editor.formatOnSave": true,
+  // cSpell校验的文件类型
+  "cSpell.enableFiletypes": [
+    "vue"
+  ],
+  // 符合拼写的自定义单词
+  "cSpell.words": [
+    "vant", //UI组件
+    "Pinia", //Vue全局存储
+    "payway", //支付方式
+    // 支付渠道名称
+    "Koudian",
+    "airwallex",
+    "Xsolla",
+    "pagsmile",
+    // 支付渠道名称
+    "Türkiye", //地区
+    "unplugin", //vant插件
+  ],
+  "liveServer.settings.port": 5500,
+}

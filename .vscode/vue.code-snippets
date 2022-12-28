@@ -1,0 +1,33 @@
+{
+  "Print to Vue3": {
+    "prefix": "vue",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "import { ref, reactive } from 'vue'",
+      "",
+      "</script>",
+      "<template>",
+      " <div class=\"${TM_FILENAME_BASE}\">",
+      "",
+      "</div>",
+      "</template>",
+      "<style scoped lang=\"less\">",
+      ".${TM_FILENAME_BASE}{",
+      "",
+      "}",
+      "",
+      "</style>"
+    ],
+    "description": "Vue output to template"
+  },
+  "Div": {
+    "prefix": "div",
+    "body": ["<div class=\"$1\">", "", "</div>"],
+    "description": "div output to template"
+  },
+  "JS-Doc": {
+    "prefix": "@description",
+    "body": ["/**", " * @description $1", " */"],
+    "description": "JS-Doc output to template"
+  }
+}
