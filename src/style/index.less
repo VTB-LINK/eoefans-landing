@@ -1,0 +1,43 @@
+@import './normalize.less';
+
+// 页面内容最大宽度
+// @maxWidth: 750px;
+
+// 根字体大小设置
+html {
+  // 75px / 1920px
+  font-size: 3.90625vw;
+}
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 54.69px;
+  }
+}
+
+body {
+  width: 100%;
+  // min-height: 100vh;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  font-family: -apple-system, Tahoma, 'Microsoft YaHei', 'WenQuanYi Micro Hei', 'PingFang SC', Helvetica, arial;
+  font-size: 16px;
+  color: #333;
+}
+
+#app {
+  // max-width: @maxWidth;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+// :root {
+//   // --brand-color: #ff9f2e;
+//   --brand-color: #00bbff;
+//   --van-popup-round-border-radius: 10px;
+// }
+
+// @zIndexUser: 1000;
+// @zIndexUserInfo: 999;
+// @zIndexBanner: 1001;

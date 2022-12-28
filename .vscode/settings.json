@@ -15,17 +15,7 @@
   ],
   // 符合拼写的自定义单词
   "cSpell.words": [
-    "vant", //UI组件
-    "Pinia", //Vue全局存储
-    "payway", //支付方式
-    // 支付渠道名称
-    "Koudian",
-    "airwallex",
-    "Xsolla",
-    "pagsmile",
-    // 支付渠道名称
-    "Türkiye", //地区
-    "unplugin", //vant插件
+    "fullpage", // 页面切换插件
   ],
   "liveServer.settings.port": 5500,
 }
