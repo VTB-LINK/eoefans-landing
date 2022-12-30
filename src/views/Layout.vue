@@ -2,6 +2,9 @@
 import { ref, reactive, onMounted } from 'vue'
 import Fullpage from 'fullpage.js'
 import 'fullpage.js/dist/fullpage.min.css'
+
+import Page1 from './Page1/Page1.vue'
+
 onMounted(() => {
   Object.freeze(
     new Fullpage('#fullpage', {
@@ -20,7 +23,9 @@ onMounted(() => {
 </script>
 <template>
   <div id="fullpage">
-    <div class="section">Some section1</div>
+    <div class="section">
+      <Page1></Page1>
+    </div>
     <div class="section">Some section2</div>
     <div class="section">Some section3</div>
     <div class="section">Some section4</div>
