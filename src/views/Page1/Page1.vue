@@ -41,7 +41,8 @@ const download = () => {
       <div class="main-text">
         这里是乐华娱乐旗下虚拟偶像女团[EOE组合]的非官方二创社区平台APP
         本APP非商业用途，仅提供EOE及相关社区服务。<br><br>
-        不开心就来eoefans！在eoefans，没有人知道你的身份。在eoefans，没有标签，只有熟人。在eoefans，尽情的释放自己。在eoefans，遇见懂你的二创。 <br><br> welcome to eoe world.     </div>
+        不开心就来EOEFans！在这里，没有人知道你的身份。在EOEFans，没有标签，只有熟人。在EOEFans，尽情的释放自己。在EOEFans，遇见懂你的二创。 <br><br> 
+        welcome to eoe world.     </div>
       <section class="button-section">
         <div class="download-button__base" @click="download">前往下载</div>
       </section>
