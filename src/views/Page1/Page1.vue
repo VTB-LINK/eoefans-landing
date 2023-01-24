@@ -124,6 +124,7 @@ const download = () => {
     border-radius: 6px;
     cursor: pointer;
     animation: buttonBack 20s linear infinite;
+    box-shadow: 0 0 10px 1px #74727a;
   }
 }
 @keyframes buttonBack {
