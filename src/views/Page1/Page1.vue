@@ -92,11 +92,13 @@ const download = () => {
     color: #fff;
     font-size: 90px;
     text-align: center;
+    animation: fadeIn 1s ease-in-out, translateUp 1s ease-in-out;
   }
   .main-text {
     font-size: 20px;
     color: #74727a;
     margin-top: 20px;
+    animation: fadeIn 1s 0.5s ease-in-out both;
   }
 }
 
@@ -104,7 +106,8 @@ const download = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 160px;
+  animation: fadeIn 0.3s 1.8s ease-in-out both;
   .download-button__base {
     padding: 12px;
     margin: 0 15px;
@@ -112,12 +115,26 @@ const download = () => {
     height: 60px;
     font-size: 18px;
     display: flex;
+    color: #d7cfdb;
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    border-image: linear-gradient(315deg, #6772ff 0, #00f9e5 100%) 30 30 stretch;
+    background-image: linear-gradient(315deg, #a15f48, #b23a58, #fee7ef, #26152c, #d7cfdb);
+    background-size: 2000% 100%;
     border-radius: 6px;
     cursor: pointer;
+    animation: buttonBack 20s linear infinite;
+  }
+}
+@keyframes buttonBack {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
   }
 }
 .example-section {
@@ -125,6 +142,7 @@ const download = () => {
   z-index: 1;
   width: 300px;
   margin-top: 200px;
+  animation: fadeIn 0.3s 1.5s linear both, translateLeft 0.3s 1.5s linear;
   .example-img {
     width: 100%;
   }
@@ -141,6 +159,39 @@ const download = () => {
   }
   .example-section {
     width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes translateDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes translateLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }
 </style>
