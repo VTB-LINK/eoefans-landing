@@ -4,3 +4,5 @@ declare module '*.js' {
   const types: any
   export default types
 }
+
+declare module '*.jpg'
