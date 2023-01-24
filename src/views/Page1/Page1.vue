@@ -136,6 +136,9 @@ const download = () => {
   }
 }
 @media screen and (max-width: 750px) {
+  .introduce-section {
+    width: 100%;
+  }
   .example-section {
     width: 100%;
   }
