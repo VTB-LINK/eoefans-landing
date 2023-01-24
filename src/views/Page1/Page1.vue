@@ -115,27 +115,12 @@ const download = () => {
     height: 60px;
     font-size: 18px;
     display: flex;
-    color: #d7cfdb;
+    color: #26152c;
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    background-image: linear-gradient(315deg, #a15f48, #b23a58, #fee7ef, #26152c, #d7cfdb);
-    background-size: 2000% 100%;
     border-radius: 6px;
     cursor: pointer;
-    animation: buttonBack 20s linear infinite;
-    box-shadow: 0 0 10px 1px #74727a;
-  }
-}
-@keyframes buttonBack {
-  0% {
-    background-position: 0;
-  }
-  50% {
-    background-position: 100%;
-  }
-  100% {
-    background-position: 0;
   }
 }
 .example-section {
