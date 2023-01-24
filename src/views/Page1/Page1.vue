@@ -39,8 +39,7 @@ const download = () => {
         <div class="">APP</div>
       </header>
       <div class="main-text">
-        文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案
-      </div>
+        不开心就来eoefans！在eoefans，没有人知道你的身份。在eoefans，没有标签，只有熟人。在eoefans，尽情的释放自己。在eoefans，遇见懂你的二创。 <br><br> welcome to eoe world.     </div>
       <section class="button-section">
         <div class="download-button__base" @click="download">前往下载</div>
       </section>
