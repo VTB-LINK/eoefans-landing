@@ -39,10 +39,13 @@ const download = () => {
         <div class="">APP</div>
       </header>
       <div class="main-text">
-        这里是乐华娱乐旗下虚拟偶像女团[EOE组合]的非官方二创社区平台APP
-        本APP非商业用途，仅提供EOE及相关社区服务。<br><br>
-        不开心就来EOEFans！在这里，没有人知道你的身份。在EOEFans，没有标签，只有熟人。在EOEFans，尽情的释放自己。在EOEFans，遇见懂你的二创。<br> 
-        Welcome to eoe world.     </div>
+        这里是乐华娱乐旗下虚拟偶像女团[EOE组合]的非官方二创社区平台APP 本APP非商业用途，仅提供EOE及相关社区服务。<br />
+        <br />
+        不开心就来EOEFans！在这里，没有人知道你的身份。在EOEFans，没有标签，只有熟人。在EOEFans，尽情的释放自己。在EOEFans，遇见懂你的二创。
+        <br />
+        <br />
+        Welcome to eoe world.
+      </div>
       <section class="button-section">
         <div class="download-button__base" @click="download">前往下载</div>
       </section>
@@ -108,7 +111,7 @@ const download = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 160px;
+  margin-top: 100px;
   animation: fadeIn 0.3s 1.8s ease-in-out both;
   .download-button__base {
     padding: 12px;
